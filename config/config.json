@@ -75,24 +75,5 @@
       },
       "tag": "dns-out"
     }
-  ],
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "inboundTag": [
-          "dns-in"
-        ],
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "outboundTag": "dns-out",
-        "protocol": [
-          "dns"
-        ],
-        "type": "field"
-      }
-    ]
-  }
+  ]
 }
