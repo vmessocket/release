@@ -60,11 +60,6 @@
     },
     {
       "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "protocol": "freedom",
-      "tag": "bypass"
     },
     {
       "protocol": "dns",
