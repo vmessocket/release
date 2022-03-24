@@ -72,8 +72,7 @@
         "address": "1.1.1.1",
         "network": "tcp",
         "userLevel": 1
-      },
-      "tag": "dns-out"
+      }
     }
   ]
 }
