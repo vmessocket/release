@@ -33,7 +33,6 @@
   },
   "outbounds": [
     {
-      "domainStrategy": "AsIs",
       "protocol": "vmess",
       "settings": {
         "vnext": [
