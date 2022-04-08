@@ -1,22 +1,4 @@
 {
-  "dns": {
-    "disableFallbackIfMatch": true,
-    "hosts": {
-      "domain:googleapis.cn": "googleapis.com"
-    },
-    "servers": [
-      {
-        "address": "https://1.1.1.1/dns-query"
-      },
-      {
-        "address": "https+local://223.5.5.5/dns-query",
-        "domains": [
-          "full:yourdomain"
-        ],
-        "skipFallback": true
-      }
-    ]
-  },
   "inbounds": [
     {
       "listen": "127.0.0.1",
